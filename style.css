@@ -216,59 +216,94 @@
 }
 
 .ex-13-button:hover>.ex-13-top-white{
-    animation: moving_top 2.5s linear;
+    animation: moving_top 4s linear;
 }
 
-@keyframes moving_top {
+@keyframes moving_top 
+{
     0% {
-
-    
-        left:10%;
         top:-10px;
-      
-        
+        left:10%;
     }
 
 
     25% {
-
-        left: 60%;
+        left: 85%;
         top: -10px;
-
     }
-
 
     50% {
-
-      
+        left:85%;
+        top:55px;
 
     }
 
-    75% {
+    75%{
 
-    
+        top:55px;
+        left:-15%;
         
 
     }
 
-    100% {
+    90%{
 
-        
-        left: 10%;
-        top: -10px;
+        top:-10px;
+        left:-15%;
 
     }
 
 
+    100%{
+
+        top:-10px;
+        left:10%;
+    }
+
 }
 
-.ex-13button:hover>.ex-13-bottom-white{
-    animation: moving_bottom 2.5s linear;
+.ex-13-button:hover>.ex-13-bottom-white{
+    animation: moving_bottom 4s linear;
 }
 
 
-@keyframes moving_bottom{
+@keyframes moving_bottom 
+{
+
     0% {
-
+        bottom:-10px;
+        right:20%;
     }
+
+
+    25% {
+        bottom:-10px; 
+        right: 85%;
+    }
+
+    50% {    
+        bottom:55px;
+        right:85%;
+    }
+
+    75%{
+        bottom:55px;
+        right:-15%;
+    }
+
+    90%{
+        bottom:-10px;
+        right:-15%;
+    }
+
+
+    100%{
+        bottom:-10px;
+        right:20%;
+    }
+
+
 }
+
+
+
