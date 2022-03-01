@@ -78,6 +78,14 @@
     filter: sepia(1) brightness(0.9);
 }
 
+.ex-8-img {
+    transition:1.5s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: sepia(0.5) saturate(0.5);
+}
 
 
 .ex-9-img {
