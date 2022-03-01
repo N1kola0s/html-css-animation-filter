@@ -104,8 +104,11 @@
 }
 
 .ex-10-icon {
-    font-size: 60px;
-    animation-name: move;
+    font-size: 60px; 
+}
+
+.ex-10-icon {
+    animation: move 1s linear infinite;
 }
 
 @keyframes move{
