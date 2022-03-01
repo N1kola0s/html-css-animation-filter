@@ -214,3 +214,61 @@
         left:70%;
     }
 }
+
+.ex-13-button:hover>.ex-13-top-white{
+    animation: moving_top 2.5s linear;
+}
+
+@keyframes moving_top {
+    0% {
+
+    
+        left:10%;
+        top:-10px;
+      
+        
+    }
+
+
+    25% {
+
+        left: 60%;
+        top: -10px;
+
+    }
+
+
+    50% {
+
+      
+
+    }
+
+    75% {
+
+    
+        
+
+    }
+
+    100% {
+
+        
+        left: 10%;
+        top: -10px;
+
+    }
+
+
+}
+
+.ex-13button:hover>.ex-13-bottom-white{
+    animation: moving_bottom 2.5s linear;
+}
+
+
+@keyframes moving_bottom{
+    0% {
+
+    }
+}
