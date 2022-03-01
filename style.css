@@ -106,15 +106,13 @@
 .ex-10-icon {
     font-size: 60px;
     animation-name: move;
-    animation-duration: 3s;
-    animation-iteration-count:infinite;
 }
 
-.ex-10-icon @keyframes move { 
-    transform: rotate(-90deg);
-
+@keyframes move{
+    0% {
+        transform: rotate(360deg);
+    }
 }
-
 
 
 
